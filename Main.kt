@@ -4,6 +4,7 @@ import kotlin.io.*
 val scanner = Scanner(System.`in`)
 val n = scanner.nextInt()
 
+//функция расчета числа фибоначчи
 fun fibonacci(n: Int): Int {
     return if (n <= 0) {
         0
@@ -14,6 +15,7 @@ fun fibonacci(n: Int): Int {
     }
 }
 
+//функция расчета суммы чисел фибоначчи
 fun sumOfFibonacci(n: Int): Int {
     return fibonacci(n + 2) - 1
 }
