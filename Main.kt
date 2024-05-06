@@ -15,6 +15,7 @@ fun fibonacci(n: Int): Int {
     }
 }
 
+//функция расчета суммы чисел фибоначчи
 fun sumOfFibonacci(n: Int): Int {
     return fibonacci(n + 2) - 1
 }
