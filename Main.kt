@@ -19,7 +19,6 @@ fun sumOfFibonacci(n: Int): Int {
     return fibonacci(n + 2) - 1
 }
 
-
 fun main() {
     println(sumOfFibonacci(n)) //O(2^n)
 }
