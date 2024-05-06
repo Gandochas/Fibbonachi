@@ -2,6 +2,7 @@ import java.util.Scanner
 import kotlin.io.*
 
 val scanner = Scanner(System.`in`)
+#переменная для определения до какого числа рассчитывать Фибоначи
 val n = scanner.nextInt()
 
 fun fibonacci(n: Int): Int {
